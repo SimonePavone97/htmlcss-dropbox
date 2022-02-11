@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    padding-top: 20px;
+    height: 70px;
+    background-color: red;
+}
+
+.containerleft{
+    float: left;
+    vertical-align: middle;
+}
+
+#logo1{
+    display: inline;
+    height: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+
+/* */
