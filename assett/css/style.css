@@ -22,17 +22,23 @@ header{
 }
 
 .containerleft{
-    float: left;
-    vertical-align: middle;
+    text-align: left;
 }
 
 #logo1{
-    display: inline;
-    height: 25px;
+    display: inline-block;
+    height: 25px; 
+    vertical-align: middle;
+}
+
+.listleft{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav ul li{
     display: inline-block;
+    vertical-align: middle;
     list-style: none;
 }
 
