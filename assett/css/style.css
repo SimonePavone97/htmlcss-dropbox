@@ -19,19 +19,23 @@ header{
     padding-top: 20px;
     height: 70px;
     background-color: red;
+    width: 100%;
 }
 
 .containerleft{
     text-align: left;
+    font-size: 0.8em;
 }
 
 #logo1{
+    margin-left: 10px;
     display: inline-block;
-    height: 25px; 
+    height: 20px; 
     vertical-align: middle;
+
 }
 
-.listleft{
+.list{
     display: inline-block;
     vertical-align: middle;
 }
@@ -48,5 +52,10 @@ nav a{
     margin: 15px;
 }
 
-
+.container-right{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
 /* */
