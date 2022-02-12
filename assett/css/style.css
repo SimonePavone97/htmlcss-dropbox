@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: black;
 }
 
 .clearfix::after{
@@ -16,24 +15,22 @@ body{
 }
 
 header{
-    padding-top: 20px;
-    height: 70px;
+    padding: 20px;
     background-color: white;
     width: 100%;
-    position: fixed;
+    height: 70px;
 }
 
 .containerleft{
     float: left;
     font-size: 0.8em;
+    
 }
 
 #logo1{
-    margin-left: 10px;
     display: inline-block;
     height: 20px; 
     vertical-align: middle;
-
 }
 
 .list{
@@ -57,7 +54,6 @@ nav a{
     float: right;
     vertical-align: middle;
     font-size: 0.8em;
-    margin-right: 10px;
 }
 
 .button{
@@ -72,4 +68,47 @@ nav a{
 
 .con{
     vertical-align: middle;
+}
+
+/*Inizio main*/
+
+.section1{
+    background-color: #B4D0E7;
+}
+
+.centro{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flottare{
+    padding-top: 50px;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    padding-top: 70px;
+}
+
+.paragrafo1{
+    float: left;
+    width: 40%;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.button2{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    float: left;
+}
+
+.immagine{
+    width: 40%;
+    float: right;
 }
