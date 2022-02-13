@@ -72,43 +72,58 @@ nav a{
 
 /*Inizio main*/
 
-.section1{
+
+    /*background-color: #B4D0E7;*/
+
+main{
     background-color: #B4D0E7;
+    width: 100%;
 }
 
-.centro{
+.largh-80{
     width: 80%;
     margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    padding-top: 70px;
+    position: relative;
 }
 
-.flottare{
+.sottotitolo{
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.sximg{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    float: left;
+}
+
+.Iniziap{
     padding-top: 50px;
 }
 
-h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 70px;
-    padding-top: 70px;
-}
-
-.paragrafo1{
-    float: left;
-    width: 40%;
-    line-height: 25px;
-    font-size: 15px;
-}
-
-.button2{
-    background-color: #0061FF;
-    color: white;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+.padd{
+    margin-top: 15px;
+    margin-bottom: 10px;
     float: left;
 }
 
-.immagine{
-    width: 40%;
-    float: right;
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.floatright{
+    position: absolute;
+    width: 50%;
+}
+
+.fa-solid{
+    margin-bottom: 65px;
 }
