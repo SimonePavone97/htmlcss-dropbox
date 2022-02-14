@@ -183,8 +183,8 @@ h1{
 
 .Fl{
     float: left;
-    width: calc(100% / 3);
-    min-height: 1024px;
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
 }
 
 .titolo{
@@ -193,15 +193,92 @@ h1{
     border: 1px solid lightgrey;
 }
 
-h5{
+h4{
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
 }
 
 .spazio{
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
+.pinco{
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-top: 0;
+    min-height: 1024px;
+}
+
+.spazi{
+    font-size: 0.9em;
+    font-style: oblique;
+    margin-top: 8px;
+}
+
+.spa{
+    margin-top: 25px;
+    font-size: 0.9em;
+}
+
+.spaz{
+    margin-top: 13px;
+    font-size: 0.9em;
+}
+
+.button2{
+    margin-top: 20px;
+}
+
+.button3{
+    text-decoration: none;
+    background-color: #0061FF;
+    color: white;
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 0.8em;
+}
+
+
+.compra{
+    margin: 15px;
+    margin-left: 0;
+}
+
+p a{
+    color: blue;
+}
+
+hr{
+    width: 20%;
+    border: 1px solid #666;
+    border-width: 1px 0 0 0;
+}
+
+.sottohr{
+    margin: 30px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+
+div ul li{
+    list-style: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+.elenco a{
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 10px;
+}
