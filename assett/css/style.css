@@ -182,7 +182,6 @@ h1{
 }
 
 .Fl{
-    padding: 10px;
     float: left;
     width: calc(100% / 3);
     min-height: 1024px;
@@ -193,3 +192,16 @@ h1{
     padding: 7px;
     border: 1px solid lightgrey;
 }
+
+h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.spazio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
