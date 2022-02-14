@@ -293,3 +293,40 @@ div ul li a{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.destra{
+    float: right;
+    margin-bottom: 20px;
+}
+
+.bord{
+    border: 1px solid lightgrey;
+}
+
+.mari{
+    margin-top: 15px;
+}
+
+.pippo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Ipho{
+    width: 400px;
+    float: left;
+    margin-top: 40px;
+}
+
+.kk{
+    padding-top: 89px;
+    padding-right: 115px;
+    margin-left: 440px;
+}
+
+.titoloh5{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
