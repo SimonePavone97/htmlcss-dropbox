@@ -182,11 +182,14 @@ h1{
 }
 
 .Fl{
+    padding: 10px;
     float: left;
     width: calc(100% / 3);
+    min-height: 1024px;
 }
 
 .titolo{
     text-align: center;
+    padding: 7px;
     border: 1px solid lightgrey;
 }
