@@ -385,6 +385,7 @@ div ul li a{
 
 .column{
     float: left;
+    height: 100%;
 }
 
 .c-60{
