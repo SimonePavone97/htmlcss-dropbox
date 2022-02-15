@@ -332,7 +332,6 @@ div ul li a{
 }
 
 .titoloh5{
-    float: left;
     font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
     margin-bottom: 30px;
@@ -380,19 +379,29 @@ div ul li a{
 
 .row{
     width: 100%;
-}
-
-.quadrati{
-    width: calc(100% / 5);
-    align-items: center;
+    background-color: red;
+    height: 800px;
 }
 
 .column{
-    width: 20%;
-    height: 30vh;
+    float: left;
 }
 
-.sf{
-    background-color: red;
-    align-items: center;
+.c-60{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.c-20{
+    float: left;
+    width: calc(50% / 4);
+    height: 50%;
+}
+
+.img11{
+    background-image: url(../img/designit.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
