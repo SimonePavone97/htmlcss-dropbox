@@ -444,3 +444,39 @@ div ul li a{
     background-color: #F5F5F5;
     height: 35%;
 }
+
+.img6{
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    background-color: #D5001F;
+}
+
+.img7{
+    background-image: url(../img/lonely_planet.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    background-color: #0D2481;
+}
+
+.img8{
+    background-image: url(../img/hearst_corp.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    background-color: #C2D9EC;
+}
+
+.img9{
+    background-image: url(../img/clear_channel.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    background-color: #FFD830;
+}
